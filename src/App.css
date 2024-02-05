@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+
+* {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    background: #000000;
+}
+
+body {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    height: 700px;
+    width: 600px;
+    text-align: center;
+    border: 10px solid #000000;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(0, 255, 251);
+
+}
+
+.keypad {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+}
+
+input[type="text"] {
+    height: 198px;
+    width: 580px;
+    background-color: #000000;
+    border: 10px solid #000000;
+    border: 0px;
+    color: #ffffff;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#clear {
+    grid-column: 1/3;
+    grid-row: 1;
+    color: #000000;
+}
+
+#result {
+    grid-column: 3/5;
+    grid-row: 5;
+    color: #000000;
+}
+
+#backspace {
+    color: #000000;
+}
+
+button {
+    margin: 5px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    background: #333232;
+    color: #fffcfc;
+    font-weight: 500;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+.highlight {
+    background: #088ea9;
+}
