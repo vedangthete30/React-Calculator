@@ -5,6 +5,9 @@ This project was build using react to learn react fundamentals.
 #Screenshot of UI - 
 ![image](https://github.com/vedangthete30/React-Calculator/assets/126575401/bdfd078a-d8df-4ef2-bf03-e68632bf148e)
 
+# Try out this calculator - 
+https://vedangthete30.github.io/React-Calculator/
+
 
 # Getting Started with Create React App
 
